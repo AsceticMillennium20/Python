@@ -1,0 +1,4 @@
+a = int(input("Enter the price before discount : "))
+b = int(input("Enter the discount percentage : "))
+c = (a - (a * b / 100))
+print("The price after discount is : ", c)  # This is the final price after discount
